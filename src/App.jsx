@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/darling-twilight-9f0252/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
