@@ -43,8 +43,8 @@ export default function Contact() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { icon: "📧", title: "Email", content: "neighborhoodbuilder@gmail.com", action: "Send Email" },
-              { icon: "📞", title: "Phone", content: "+44 7123 456789", action: "Call Now" },
+              { icon: "📧", title: "Email", content: "Buildersneighborhood@gmail.com", action: "Send Email" },
+              { icon: "📞", title: "Phone", content: "+447931101353", action: "Call Now" },
               { icon: "💬", title: "Live Chat", content: "Available 9 AM - 6 PM", action: "Start Chat" }
             ].map((item, i) => (
               <motion.div
